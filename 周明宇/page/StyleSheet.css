@@ -1,0 +1,139 @@
+﻿#banner{
+   position:fixed;
+   top:0px;
+   width:100%;
+   background-color:#1c2123;
+   height:40px;
+   color:white;
+   z-index:3
+}
+#banner>ul>li{
+    list-style-type:none;
+    display:inline-block;
+    padding:0px 20px;
+
+}
+#banner>ul{
+    padding:0px 50px;
+    margin:10px;
+    width:500px;
+}
+body{
+    margin:0;
+}
+header{
+    position:relative;
+    top:40px;
+    width:100%;
+    height:300px;
+    background-color:#0691cd;
+    margin:0;
+    
+}
+header>h1{
+    font-family:'Microsoft JhengHei';
+    font-size:100px;
+    text-align:center;
+    position:relative;
+    min-width:1200px;
+    top:100px;
+    margin:0;
+}
+header>h2{
+    position:relative;
+    text-align:center;
+    min-width:1200px;
+    left:400px;
+    top:60px;
+}
+#navbar{
+    min-width:1100px;
+    background-color:#ffc000;
+    position:relative;
+    height:45px;
+}
+#navbar>ul{
+    padding:0px 50px;
+}
+#navbar>ul>li{
+    list-style-type:none;
+    display:inline-block;
+    padding:11px 20px;
+    margin:0;
+    background-color:#fa6600;
+}
+#main{
+    min-width:1100px;
+    margin:0 40px 0 40px;
+    background-color:#acd0ce;
+    position:relative;
+    top:-20px;
+    height:100%;
+    min-height:1000px;
+
+}
+#content{
+    float:left;
+    width:70%;
+}
+#content>ul{
+
+}
+#content>ul>li{
+    list-style-type:none;
+    display:block;
+    margin:30px 40px 30px 10px;
+    height:300px;
+}
+.textblock{
+    background-color:#ececee;
+    width:inherit;
+    height:inherit;
+}
+.textblock>h2{
+    background-color:#106c94;
+    color:white;
+}
+#sidebar{
+    float:right;
+    width:27%;
+    position:relative;
+    top:30px;
+    margin-right:20px;
+         background-color:#ececee;
+}
+#searchinput{
+    background-color:#de0669;
+    border:none;
+    color:white;
+    width:85%;
+    height:40px;
+}
+#searchbutton{
+    float:right;
+    width:41px;
+    height:40px;
+    position:relative;
+    left:-27px;
+    top:0px;
+    background-color:#81003b;
+    border:none;
+}
+#sidebar>ul{
+    padding:0;
+}
+#sidebar>ul>li{
+     list-style-type:none;
+
+}
+footer{
+    background-color:#d45600;
+    height:250px;
+}
+footer h2{
+    margin:0;
+
+}
+#background{
+    background-color:#ecedee;
+}
