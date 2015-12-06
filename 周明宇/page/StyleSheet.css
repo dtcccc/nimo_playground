@@ -34,8 +34,8 @@ header>h1{
     font-family:'Microsoft JhengHei';
     font-size:100px;
     text-align:center;
+    text-shadow:2px 2px rgba(60, 60, 60, 0.52) ;
     position:relative;
-    min-width:1200px;
     top:100px;
     margin:0;
 }
@@ -50,6 +50,7 @@ header>h2{
     min-width:1100px;
     background-color:#ffc000;
     position:relative;
+    top:-20px;
     height:45px;
 }
 #navbar>ul{
@@ -57,19 +58,19 @@ header>h2{
 }
 #navbar>ul>li{
     list-style-type:none;
+    text-align:center;
     display:inline-block;
-    padding:11px 20px;
+    padding:11px;
+    width:100px;
     margin:0;
-    background-color:#fa6600;
+    background-color:#ff6f03;
 }
 #main{
-    min-width:1100px;
-    margin:0 40px 0 40px;
+    width:1300px;
+    margin:0 auto;
     background-color:#acd0ce;
-    position:relative;
-    top:-20px;
     height:100%;
-    min-height:1000px;
+    min-height:1200px;
 
 }
 #content{
@@ -100,7 +101,10 @@ header>h2{
     position:relative;
     top:30px;
     margin-right:20px;
-         background-color:#ececee;
+
+}
+#searchbar{
+    margin-bottom:80px;
 }
 #searchinput{
     background-color:#de0669;
@@ -108,23 +112,35 @@ header>h2{
     color:white;
     width:85%;
     height:40px;
+    float:left;
 }
 #searchbutton{
     float:right;
     width:41px;
     height:40px;
     position:relative;
-    left:-27px;
-    top:0px;
+    width:15%;
     background-color:#81003b;
     border:none;
 }
-#sidebar>ul{
-    padding:0;
+#searchbutton:hover{
+    background-color:#b00453;
 }
-#sidebar>ul>li{
+#dateselect{
+    padding:0;
+    margin:0;
+    background-color:#ececee;
+}
+#dateselect>li{
      list-style-type:none;
-
+     background-color:#189fd9;
+     margin-top:5px;
+     margin-bottom:0px;
+     height:28px;
+     text-align:center;
+     font-size:20px;
+     padding-top:6px;
+     text-shadow:1px 1px rgba(60, 60, 60, 0.52) ;
 }
 footer{
     background-color:#d45600;
@@ -136,4 +152,5 @@ footer h2{
 }
 #background{
     background-color:#ecedee;
+    width:100%;
 }
