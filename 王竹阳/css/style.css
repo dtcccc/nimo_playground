@@ -55,19 +55,19 @@
 
 .left {
     margin: 30px;
-    width: 300px;
+    width: 250px;
     float: left;
 }
 
 .right {
     margin: 30px;
-    width: 300px;
+    width: 250px;
     float: left;
 }
 
 .poems {
     background-color: #2AC;
-    margin: 30px 100px;
+    margin: 10px 120px;
     width: 200px;
     height: 200px;
     border-radius:100%;
