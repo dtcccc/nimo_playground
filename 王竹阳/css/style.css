@@ -1,0 +1,89 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#title, #nav {
+    text-align: center;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #888;
+    margin:0px 10px 0px 10px
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#title h1 {
+    font-size: 150px;
+    margin: 0px;
+}
+
+#quote {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#quote h3 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+#quote p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#poem {
+    margin: 0px;
+    text-align: center;
+}
+
+#poem h3 {
+    font-size: 40px;
+    margin: 30px;
+}
+
+#poem p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.left {
+    margin: 30px;
+    width: 300px;
+    float: left;
+}
+
+.right {
+    margin: 30px;
+    width: 300px;
+    float: left;
+}
+
+.poems {
+    background-color: #2AC;
+    margin: 30px 100px;
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+    float: left;
+    transition: width 1s, height 1s;
+}
+
+.poems p {
+    color: #FFF;
+    margin: 25% auto;
+    width: 120px;
+    font-size: 25px;
+    position: relative;
+}
+
+.poems:hover {
+    width: 250px;
+    height: 250px;
+}
