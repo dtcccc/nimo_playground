@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'edo_szregular';
+    src: url('../fonts/edosz-webfont.eot');
+    src: url('../fonts/edosz-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edosz-webfont.woff2') format('woff2'),
+         url('../fonts/edosz-webfont.woff') format('woff'),
+         url('../fonts/edosz-webfont.ttf') format('truetype'),
+         url('../fonts/edosz-webfont.svg#edo_szregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -19,7 +31,8 @@
 }
 
 #title h1 {
-    font-size: 150px;
+    font-family: 'edo_szregular';
+    font-size: 200px;
     margin: 0px;
 }
 
