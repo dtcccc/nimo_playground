@@ -12,7 +12,7 @@
       //获取当前窗口的宽度
       clientWidth = document.body.clientWidth;
       //获取当前窗口的高度
-      clientHeight = document.body.scrollHeight;
+      clientHeight = document.body.clientHeight;
     }
     var dx = new Array();
     var xp = new Array();
