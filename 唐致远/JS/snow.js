@@ -21,31 +21,6 @@
     var stx = new Array();
     var sty = new Array();
     var snowFlakes = new Array();
-    /*for (i = 0; i < no; ++ i) {  
-      dx[i] = 0;                        
-      //第i个图片的横坐标初始值
-      xp[i] = Math.random()*(clientWidth-12);  
-      //yp[i] = Math.random()*clientHeight;//第i个图片的纵坐标初始值
-	  yp[i]=0;
-      am[i] = Math.random()*10;         //第i个图片的左右摆动的幅度
-      stx[i] = 0.02 + Math.random()/10; //第i个图片x方向的步长
-      sty[i] = 0.7 + Math.random();     //第i个图片y方向的步长
-      //生成一个容纳雪花图片的div，并设置其绝对坐标
-      var snowFlakeDiv = document.createElement('div');
-      snowFlakeDiv.setAttribute('id', 'dot'+ i);
-      snowFlakeDiv.style.position = 'absolute';
-      snowFlakeDiv.style.top = 15;
-      snowFlakeDiv.style.left = 15;
-      //生成一个雪花图片对象，设置宽高，并加入div
-      var snowFlakeImg = document.createElement('img');
-      snowFlakeImg.setAttribute('src', snowsrc);
-      snowFlakeImg.style.width = 12;
-      snowFlakeImg.style.height = 12;
-      //将雪花div加入到document中，并通过数组保存
-      snowFlakeDiv.appendChild(snowFlakeImg);
-      document.body.appendChild(snowFlakeDiv);
-      snowFlakes[i] = snowFlakeDiv;
-    }*/
     function snow() {  
 	//生成新的雪花
 	if(cr!=no)
