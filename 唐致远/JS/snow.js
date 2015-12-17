@@ -12,7 +12,7 @@
       //获取当前窗口的宽度
       clientWidth = document.body.clientWidth;
       //获取当前窗口的高度
-      clientHeight = document.body.clientHeight;
+      clientHeight = document.body.scrollHeight;
     }
     var dx = new Array();
     var xp = new Array();
@@ -61,7 +61,7 @@
       //生成一个容纳雪花图片的div，并设置其绝对坐标
       var snowFlakeDiv = document.createElement('div');
       snowFlakeDiv.setAttribute('id', 'dot'+ cr);
-      snowFlakeDiv.style.position = 'absolute';
+      snowFlakeDiv.style.position = 'fixed';
       snowFlakeDiv.style.top = 15;
       snowFlakeDiv.style.left = 15;
       //生成一个雪花图片对象，设置宽高，并加入div
@@ -97,7 +97,7 @@
 	  if(no<80)
 	  {
 	     myPace++;
-	     no=Math.floor(myPace/40);
+	     no=Math.floor(myPace/30);
 	  }
       //设定动画刷新的时间周期
       setTimeout("snow()", 30);
